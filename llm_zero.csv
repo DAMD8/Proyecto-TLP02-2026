@@ -1,0 +1,61 @@
+modo,nivel,oracion,gold,pred,tipo,respuesta
+zero,1,El niño come una manzana,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,La niña lee un libro,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Ana compra una casa,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Luis ve el perro,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,El gato duerme,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Los niños comen unas manzanas,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Las niñas leen los libros,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,El profesor compró la mesa,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,La niña corrió,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Luis vio un gato,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Los perros durmieron,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,El profesor lee un libro,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Ana come una manzana,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Los gatos corren,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Luis compró unos libros,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Las niñas vieron la casa,ok,ok,TP,ACEPTA | Estructura O -> SN SV válida y concordancia correcta.
+zero,1,Los niño come una manzana,no,no,TN,"RECHAZA | Falta de concordancia de número en el SN sujeto (""Los niño"")."
+zero,1,La niño lee un libro,no,no,TN,"RECHAZA | Falta de concordancia de género en el SN sujeto (""La niño"")."
+zero,1,El gato duermen,no,no,TN,"RECHAZA | Falta de concordancia de número entre sujeto y verbo (""El gato duermen"")."
+zero,1,Ana comen una manzana,no,no,TN,"RECHAZA | Falta de concordancia de número entre sujeto y verbo (""Ana comen"")."
+zero,2,El niño pequeño come una manzana roja,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,La niña bonita lee un libro nuevo,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,El perro grande corre rápidamente en el parque,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Ana compra una casa nueva para Luis,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Los gatos viejos duermen en la casa,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Luis lee un libro sobre la ciudad,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,El profesor come una manzana en el parque hoy,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Las niñas pequeñas corrieron rápidamente,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Los profesores compraron unas mesas nuevas ayer,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,La niña vio un perro pequeño con el niño,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Hoy el niño come una manzana,ok,no,FN,RECHAZA | La oración no comienza con SN (empieza con Adv)
+zero,2,El niño come mucho,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Luis duerme en la casa grande,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,Las niñas leen unos libros grandes,ok,ok,TP,ACEPTA | Cumple con la gramática y concordancias
+zero,2,El niño pequeña come una manzana,no,no,TN,RECHAZA | Discordancia de género en SN (niño pequeña)
+zero,2,Los gatos viejo duermen en la casa,no,no,TN,RECHAZA | Discordancia de número en SN (gatos viejo)
+zero,2,La niña bonita lee un libro nuevos,no,no,TN,RECHAZA | Discordancia de número en SN (libro nuevos)
+zero,2,El perro grande corren en el parque,no,no,TN,RECHAZA | Discordancia de número entre sujeto y verbo (El perro ... corren)
+zero,2,Una niñas compra una casa nueva,no,no,TN,RECHAZA | Discordancia de número en SN (Una niñas)
+zero,2,Los profesores compró unas mesas nuevas,no,no,TN,RECHAZA | Discordancia de número entre sujeto y verbo (Los profesores compró)
+zero,3,Los niños comen manzanas,ok,no,FN,"RECHAZA | ""manzanas"" es N sin Det, no forma un SN válido"
+zero,3,El niño que lee un libro corre,ok,no,FN,"RECHAZA | ""que"" no está en el vocabulario"
+zero,3,Ana y Luis compran una casa,ok,no,FN,"RECHAZA | ""y"" no está en el vocabulario"
+zero,3,El niño come una manzana y la niña lee un libro,ok,no,FN,"RECHAZA | ""y"" no está en el vocabulario"
+zero,3,Ana quiere comprar una casa,ok,no,FN,"RECHAZA | ""quiere"" y ""comprar"" no están en el vocabulario"
+zero,3,La casa del profesor es bonita,ok,no,FN,"RECHAZA | ""del"" y ""es"" no están en el vocabulario"
+zero,3,Come una manzana,ok,no,FN,RECHAZA | falta el SN sujeto obligatorio en O -> SN SV
+zero,3,Corren en el parque,ok,no,FN,RECHAZA | falta el SN sujeto obligatorio en O -> SN SV
+zero,3,El niño la ve,ok,no,FN,"RECHAZA | ""la"" (Det) antes del verbo no está permitido por la gramática"
+zero,3,Ana dice que Luis duerme,ok,no,FN,"RECHAZA | ""dice"" y ""que"" no están en el vocabulario"
+zero,3,Ana ve el libro que compró Luis,ok,no,FN,"RECHAZA | ""que"" no está en el vocabulario"
+zero,3,¿Quién compró la casa?,ok,no,FN,"RECHAZA | ""quién"" no está en el vocabulario"
+zero,3,El niño pequeño de la niña come una manzana,ok,no,FN,"RECHAZA | la regla de SN no permite un SP (""de la niña"") dentro del SN"
+zero,3,La niña vio un perro con un libro,ok,ok,TP,ACEPTA | O -> SN(La niña) SV(vio SN(un perro) SP(con SN(un libro)))
+zero,3,El gato duerme un libro,no,ok,FP,ACEPTA | O -> SN(El gato) SV(duerme SN(un libro))
+zero,3,Luis corre la manzana,no,ok,FP,ACEPTA | O -> SN(Luis) SV(corre SN(la manzana))
+zero,3,Niño el come manzana una,no,no,TN,"RECHAZA | orden inválido en SN (""Niño el"", ""manzana una""), debe ser Det N"
+zero,3,Los el niños comen,no,no,TN,"RECHAZA | doble Det (""Los el"") no permitido en SN -> Det N Adj*"
+zero,3,Ana come come una manzana,no,no,TN,"RECHAZA | doble V (""come come"") no permitido en SV"
+zero,3,El niño duerme hoy hoy,no,ok,FP,ACEPTA | O -> SN(El niño) SV(duerme Adv(hoy) Adv(hoy))

@@ -1,0 +1,61 @@
+modo,nivel,oracion,gold,pred,tipo,respuesta
+few,1,El niño come una manzana,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,La niña lee un libro,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Ana compra una casa,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Luis ve el perro,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,El gato duerme,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Los niños comen unas manzanas,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Las niñas leen los libros,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,El profesor compró la mesa,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,La niña corrió,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Luis vio un gato,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Los perros durmieron,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,El profesor lee un libro,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Ana come una manzana,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Los gatos corren,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Luis compró unos libros,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Las niñas vieron la casa,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,1,Los niño come una manzana,no,no,TN,RECHAZA | número en el SN
+few,1,La niño lee un libro,no,no,TN,RECHAZA | género en el SN
+few,1,El gato duermen,no,no,TN,"RECHAZA | sujeto singular, verbo plural"
+few,1,Ana comen una manzana,no,no,TN,"RECHAZA | sujeto singular, verbo plural"
+few,2,El niño pequeño come una manzana roja,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,La niña bonita lee un libro nuevo,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,El perro grande corre rápidamente en el parque,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Ana compra una casa nueva para Luis,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Los gatos viejos duermen en la casa,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Luis lee un libro sobre la ciudad,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,El profesor come una manzana en el parque hoy,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Las niñas pequeñas corrieron rápidamente,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Los profesores compraron unas mesas nuevas ayer,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,La niña vio un perro pequeño con el niño,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Hoy el niño come una manzana,ok,no,FN,RECHAZA | la gramática exige SN antes de SV
+few,2,El niño come mucho,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Luis duerme en la casa grande,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,Las niñas leen unos libros grandes,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,2,El niño pequeña come una manzana,no,no,TN,RECHAZA | género en el SN
+few,2,Los gatos viejo duermen en la casa,no,no,TN,RECHAZA | número en el SN
+few,2,La niña bonita lee un libro nuevos,no,no,TN,RECHAZA | número en el SN
+few,2,El perro grande corren en el parque,no,no,TN,"RECHAZA | sujeto singular, verbo plural"
+few,2,Una niñas compra una casa nueva,no,no,TN,RECHAZA | número en el SN
+few,2,Los profesores compró unas mesas nuevas,no,no,TN,"RECHAZA | sujeto plural, verbo singular"
+few,3,Los niños comen manzanas,ok,no,FN,RECHAZA | falta determinante en 'manzanas'
+few,3,El niño que lee un libro corre,ok,no,FN,RECHAZA | 'que' no está en el vocabulario
+few,3,Ana y Luis compran una casa,ok,no,FN,RECHAZA | 'y' no está en el vocabulario
+few,3,El niño come una manzana y la niña lee un libro,ok,no,FN,RECHAZA | 'y' no está en el vocabulario
+few,3,Ana quiere comprar una casa,ok,no,FN,RECHAZA | 'quiere' no está en el vocabulario
+few,3,La casa del profesor es bonita,ok,no,FN,RECHAZA | 'del' no está en el vocabulario
+few,3,Come una manzana,ok,no,FN,RECHAZA | la gramática exige SN antes de SV
+few,3,Corren en el parque,ok,no,FN,RECHAZA | la gramática exige SN antes de SV
+few,3,El niño la ve,ok,no,FN,RECHAZA | orden inválido: Det antes de V
+few,3,Ana dice que Luis duerme,ok,no,FN,RECHAZA | 'dice' no está en el vocabulario
+few,3,Ana ve el libro que compró Luis,ok,no,FN,RECHAZA | 'que' no está en el vocabulario
+few,3,¿Quién compró la casa?,ok,no,FN,RECHAZA | '¿Quién' no está en el vocabulario
+few,3,El niño pequeño de la niña come una manzana,ok,no,FN,RECHAZA | la gramática no permite SP dentro de SN
+few,3,La niña vio un perro con un libro,ok,ok,TP,ACEPTA | cumple reglas y concordancia
+few,3,El gato duerme un libro,no,ok,FP,ACEPTA | cumple reglas y concordancia
+few,3,Luis corre la manzana,no,ok,FP,ACEPTA | cumple reglas y concordancia
+few,3,Niño el come manzana una,no,no,TN,RECHAZA | orden inválido en el SN
+few,3,Los el niños comen,no,no,TN,RECHAZA | doble determinante en el SN
+few,3,Ana come come una manzana,no,no,TN,RECHAZA | doble verbo en el SV
+few,3,El niño duerme hoy hoy,no,ok,FP,ACEPTA | cumple reglas y concordancia

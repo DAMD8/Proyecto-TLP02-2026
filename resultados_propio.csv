@@ -1,0 +1,61 @@
+nivel,oracion,gold,pred,motivo,tipo
+1,El niño come una manzana,ok,ok,-,TP
+1,La niña lee un libro,ok,ok,-,TP
+1,Ana compra una casa,ok,ok,-,TP
+1,Luis ve el perro,ok,ok,-,TP
+1,El gato duerme,ok,ok,-,TP
+1,Los niños comen unas manzanas,ok,ok,-,TP
+1,Las niñas leen los libros,ok,ok,-,TP
+1,El profesor compró la mesa,ok,ok,-,TP
+1,La niña corrió,ok,ok,-,TP
+1,Luis vio un gato,ok,ok,-,TP
+1,Los perros durmieron,ok,ok,-,TP
+1,El profesor lee un libro,ok,ok,-,TP
+1,Ana come una manzana,ok,ok,-,TP
+1,Los gatos corren,ok,ok,-,TP
+1,Luis compró unos libros,ok,ok,-,TP
+1,Las niñas vieron la casa,ok,ok,-,TP
+1,Los niño come una manzana,no,no,concordancia,TN
+1,La niño lee un libro,no,no,concordancia,TN
+1,El gato duermen,no,no,concordancia,TN
+1,Ana comen una manzana,no,no,concordancia,TN
+2,El niño pequeño come una manzana roja,ok,ok,-,TP
+2,La niña bonita lee un libro nuevo,ok,ok,-,TP
+2,El perro grande corre rápidamente en el parque,ok,ok,-,TP
+2,Ana compra una casa nueva para Luis,ok,ok,-,TP
+2,Los gatos viejos duermen en la casa,ok,ok,-,TP
+2,Luis lee un libro sobre la ciudad,ok,ok,-,TP
+2,El profesor come una manzana en el parque hoy,ok,ok,-,TP
+2,Las niñas pequeñas corrieron rápidamente,ok,ok,-,TP
+2,Los profesores compraron unas mesas nuevas ayer,ok,ok,-,TP
+2,La niña vio un perro pequeño con el niño,ok,ok,-,TP
+2,Hoy el niño come una manzana,ok,no,sintaxis,FN
+2,El niño come mucho,ok,ok,-,TP
+2,Luis duerme en la casa grande,ok,ok,-,TP
+2,Las niñas leen unos libros grandes,ok,ok,-,TP
+2,El niño pequeña come una manzana,no,no,concordancia,TN
+2,Los gatos viejo duermen en la casa,no,no,concordancia,TN
+2,La niña bonita lee un libro nuevos,no,no,concordancia,TN
+2,El perro grande corren en el parque,no,no,concordancia,TN
+2,Una niñas compra una casa nueva,no,no,concordancia,TN
+2,Los profesores compró unas mesas nuevas,no,no,concordancia,TN
+3,Los niños comen manzanas,ok,no,sintaxis,FN
+3,El niño que lee un libro corre,ok,no,léxico,FN
+3,Ana y Luis compran una casa,ok,no,léxico,FN
+3,El niño come una manzana y la niña lee un libro,ok,no,léxico,FN
+3,Ana quiere comprar una casa,ok,no,léxico,FN
+3,La casa del profesor es bonita,ok,no,léxico,FN
+3,Come una manzana,ok,no,sintaxis,FN
+3,Corren en el parque,ok,no,sintaxis,FN
+3,El niño la ve,ok,no,sintaxis,FN
+3,Ana dice que Luis duerme,ok,no,léxico,FN
+3,Ana ve el libro que compró Luis,ok,no,léxico,FN
+3,¿Quién compró la casa?,ok,no,léxico,FN
+3,El niño pequeño de la niña come una manzana,ok,no,sintaxis,FN
+3,La niña vio un perro con un libro,ok,ok,-,TP
+3,El gato duerme un libro,no,ok,-,FP
+3,Luis corre la manzana,no,ok,-,FP
+3,Niño el come manzana una,no,no,sintaxis,TN
+3,Los el niños comen,no,no,sintaxis,TN
+3,Ana come come una manzana,no,no,sintaxis,TN
+3,El niño duerme hoy hoy,no,ok,-,FP
